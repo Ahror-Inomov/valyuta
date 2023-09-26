@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <style>
+      .box {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         padding-top: 100px;
+      }
+   </style>
+
+   <div class="box">
+      <form class="form">
+         <input class="form__input" type="text" name="user_kourse" placeholder="Jamg'armangizni kiriting">
+         <select class="form__list">
+            <option hidden>Valyuta kursini tanlang</option>
+            <option value="12250">USD</option>
+            <option value="13000">EURO</option>
+            <option value="127">RUB</option>
+         </select>
+         <button type="submit">send</button>
+      </form>
+      <p class="result"></p>
+   </div>
+
+   <script src="./js/main.js"></script>
+   
+</body>
+</html>
